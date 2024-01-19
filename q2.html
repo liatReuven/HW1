@@ -1,0 +1,29 @@
+<audio id="quackaudio">
+    <source src="quacks.mp3">
+</audio>
+
+<form name="duckForm" onsubmit="start()">
+    <label for="name">Name:</label>
+    <input type="text" id="name">
+    </br>
+    <label for="color">Color:</label>
+    <input type="text" id="color">
+    </br>
+    <label for="age">Age:</label>
+    <input type="text" id="age">
+    </br>
+    <label for="weight">Weight:</label>
+    <input type="number" id="weight">
+    </br>
+    <label for="photo">Picture:</label>
+    <input type="text" id="photo">
+    </br>
+    <button type="button" id="submit" onclick="start()">submit</button>
+    <button type="button" id="show" onclick="d1.show()">show</button>
+    <button type="button" id="quak" onclick="d1.quack()">quack</button>
+</form>
+
+<p id="para"></p>
+
+
+<script src="duck.js"></script>
